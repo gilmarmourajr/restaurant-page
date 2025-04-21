@@ -256,6 +256,10 @@ footer p {
         height: auto;
         width: 90%;
     }
+
+    .contato {
+        font-size: 9px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -269,5 +273,13 @@ footer p {
 
     .item img {
         width: 100%;
+    }
+
+    .contato {
+        font-size: 7px;
+    }
+
+    .contato > div {
+        padding: 80px 20px;
     }
 }
