@@ -20,7 +20,7 @@ export default function menuLoad () {
         itemDiv.classList.add("item");
 
         let img = document.createElement("img");
-        img.src(imgs[i]);
+        img.src = imgs[i];
 
         let nameDiv = document.createElement("div");
         let name = document.createElement("p");
