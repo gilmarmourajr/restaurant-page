@@ -30,6 +30,10 @@ header {
     padding: 0 var(--padding-main) 20px;
     
     min-height: 13vh;
+
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid var(--text-color-dark);
 }
 
 header h1 {
